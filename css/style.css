@@ -1,0 +1,130 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+    font-family: 'Lexend Deca', sans-serif;
+    background-color: hsl(0, 0%, 95%);
+}
+
+.container{
+    display: flex;
+    width: 69%;
+    margin: 53px auto;
+}
+
+.main-heading{
+    font-family: 'Big Shoulders Display', cursive;
+    color: hsl(0, 0%, 95%);
+}
+
+.content{
+    color: hsla(0, 0%, 100%, 0.75);
+    margin-bottom: 150px;
+    width: 88%;
+}
+
+.sedan{
+    background-color: hsl(31, 77%, 52%);
+    padding: 40px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.suv{
+    background-color: hsl(184, 100%, 22%);
+    padding: 40px;
+}
+
+.luxury{
+    background-color: hsl(179, 100%, 13%);
+    padding: 40px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.btn1{
+    border: 2px solid hsl(0, 0%, 95%);
+    border-radius: 20px;
+    padding: 10px 20px;
+    background-color:hsl(0, 0%, 95%);
+    font-weight: 700;
+    color:hsl(31, 77%, 52%) ;
+    cursor: pointer;
+}
+
+.btn1:hover{
+    color:hsl(0, 0%, 95%);
+    background-color:hsl(31, 77%, 52%) ;
+    cursor: pointer;
+}
+
+.btn2{
+    border: 2px solid hsl(0, 0%, 95%);
+    border-radius: 20px;
+    padding: 10px 20px;
+    background-color:hsl(0, 0%, 95%);
+    font-weight: 700;
+    color:hsl(184, 100%, 22%) ;
+    cursor: pointer;
+}
+
+.btn2:hover{
+    color:hsl(0, 0%, 95%);
+    background-color:hsl(184, 100%, 22%) ;
+    cursor: pointer;
+}
+
+.btn3{
+    border: 2px solid hsl(0, 0%, 95%);
+    border-radius: 20px;
+    padding: 10px 20px;
+    background-color:hsl(0, 0%, 95%);
+    font-weight: 700;
+    color:hsl(179, 100%, 13%) ;
+    cursor: pointer;
+}
+
+.btn3:hover{
+    color:hsl(0, 0%, 95%);
+    background-color:hsl(179, 100%, 13%);
+    cursor: pointer;
+}
+
+.attribution{
+    text-align: center;
+    background-color: hsl(179, 100%, 13%);
+    padding: 8px 0;
+}
+
+.attribution a{
+   text-decoration: none;
+   color: hsl(0, 0%, 95%);
+}
+.attribution a:hover{
+    text-decoration: none;
+    color: hsl(184, 100%, 22%);
+ }
+
+ @media screen and (max-width:375px) {
+    .container{
+        flex-direction: column;
+    }
+
+    .content{
+        margin-bottom: 10px;
+    }
+
+    .sedan{
+        border-bottom-left-radius: 0;
+        border-top-right-radius: 10px;
+    }
+
+    .luxury{
+        border-bottom-left-radius: 10px;
+        border-top-right-radius: 0px;
+    }
+    .attribution{
+        display: flex;
+        flex-direction: column;
+    }
+ }
